@@ -1,0 +1,100 @@
+:root {
+    --height-50: 50px;
+    --height-75: 75px;
+    --height-100: 100px;
+    --width-150: 150px;
+    --width-200: 200px;
+    --doom-grn: #1cb11c90;
+    --doom-white: #ffffff;
+    --doom-grey: #cccccc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    background-color: #060807;
+    background-image: url('https://i.ibb.co/M128wbg/dr-doom-by-iamatroymclure-d7n9ogc-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Navigation Bar*/
+
+.navbar_custom {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav_custom {
+    width: var(--width-150);
+    background-color: var(--doom-grey);
+    text-align: center;
+    color: #000000; 
+    margin: 5px;
+}
+
+.nav_custom:focus,
+.nav_custom:hover {
+    color: var(--doom-white);
+    background-image: url('https://i.ibb.co/jTch737/dr-doom-btn-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.dropdown_menu_custom {
+    /*background-image: url('https://i.ibb.co/LgkqMVm/dr-doom-comic-art.jpg');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;*/
+    background-color: var(--doom-grey);
+    padding: 0px;
+}
+
+.dropdown_menu_custom a {
+    font-weight: 600;
+    color: #000000;
+}
+
+.dropdown_menu_custom_overlay {
+    padding: 5px 0px;
+}
+
+.dropdown_item_custom:active {
+    background-image: url('https://i.ibb.co/jTch737/dr-doom-btn-bg.png');
+}
+
+.nav_icons_custom {
+    width: 40px;
+    margin: 5px 10px;
+}
+
+.nav_icons_custom:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+    opacity: 0.7;
+}
+
+.content_body_custom {
+    padding: 15px 20px;
+    margin-top: 75px;
+    width: 100%;
+}
+
+.custom_date_time {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+    background-color: var(--doom-grey);
+    padding: 10px; 
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+
+
